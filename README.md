@@ -1,5 +1,5 @@
 ## Final UI Screenshot
-[ui.png]
+![UI Screenshot](ui.png)
 
 ## Technologies
 - HTML
