@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle - Music Player</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="music-player">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <span class="logo">circle</span>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><span class="material-symbols-outlined">home</span> Home</li>
+                <li><span class="material-symbols-outlined">search</span> Search</li>
+                <li><span class="material-symbols-outlined">album</span> Playlists</li>
+                <li><span class="material-symbols-outlined">notifications</span> Notifications <span class="notification-dot"></span></li>
+                <li><span class="material-symbols-outlined">diamond</span> Premium Content</li>
+            </ul>
+            <div class="sidebar-footer">
+                 <button class="download-app-btn">Download Desktop App</button>
+                 <div class="user-profile">
+                    <img src="user.png" alt="User Avatar">
+                    <span>Vĩnh Đại Trần</span>
+                    <span class="material-symbols-outlined">expand_more</span>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-nav">
+                    <button class="active">Music</button>
+                    <button>Podcasts</button>
+                    <button>Jazz</button>
+                    <button>Electronic</button>
+                    <button>Rock Classic</button>
+                    <button>Hip Hop</button>
+                </div>
+                <div class="search-bar">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" placeholder="Search for something">
+                </div>
+            </header>
+
+            <div class="content-wrapper">
+                <div class="left-pane">
+                    <section class="content-section">
+                        <h2>Popular Albums</h2>
+                        <div class="card-container">
+                            <div class="album-card">
+                                <img src="https://upload.wikimedia.org/wikipedia/vi/f/f2/Phep_mau_ost.jpg" alt="Phép màu Album">
+                                <h3>Phép màu (Đàn Cá Gỗ Original SoundTrack)</h3>
+                                <p>feat. Minh Tốc & Lam</p>
+                                <div class="card-footer">
+                                    <span>1 Track • 31K Likes</span>
+                                    <span class="material-symbols-outlined">play_circle</span>
+                                </div>
+                            </div>
+                            <div class="album-card">
+                                <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/4/3/a/2/43a2dc0869fac43633bcc4b0c56a150c.jpg" alt="Welcome Home Album">
+                                <h3>Welcome Home - Single</h3>
+                                <p>LYHAN</p>
+                                <div class="card-footer">
+                                    <span>1 Track • 15K Likes</span>
+                                    <span class="material-symbols-outlined">play_circle</span>
+                                </div>
+                            </div>
+                             <div class="album-card">
+                                <img src="https://i.scdn.co/image/ab67616d0000b2738e2436033be92c06e4afee32" alt="Không buông Album">
+                                <h3>Không Buông - Single </h3>
+                                <p>Hngle & Ari</p>
+                                <div class="card-footer">
+                                    <span>1 Track • 29K Likes</span>
+                                    <span class="material-symbols-outlined">play_circle</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Picked for you</h2>
+                        <div class="picked-for-you-card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02dfcc40a4092eeca7332fbdc1" alt="Picked for you">
+                            <div class="picked-content">
+                                <span class="playlist-tag">PLAYLIST</span>
+                                <h3>ANH TRAI "SAY HI" 2025, TẬP 4 - EP</h3>
+                                <p>2025</p>
+                                <div class="playlist-details">
+                                    <span>16:23</span>
+                                    <span>1.3K Likes</span>
+                                    <span>4 Tracks</span>
+                                </div>
+                                <div class="playlist-tags">
+                                    <span>Rock Classic</span>
+                                    <span>Ballad</span>
+                                    <span>Hip Hop</span>
+                                </div>
+                            </div>
+                            <div class="picked-actions">
+                                <span class="material-symbols-outlined">favorite_border</span>
+                                <span class="material-symbols-outlined">share</span>
+                                <span class="material-symbols-outlined play-icon-large">play_circle</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="content-section">
+                        <h2>Recent</h2>
+                        <ul class="song-list">
+                            <li>
+                                <div class="song-info">
+                                    <span>1</span>
+                                    <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/b/7/1/c/b71c2776c47d9122faf16098fd37e6a1.jpg" alt="Song cover">
+                                    <div>
+                                        <h4>Rơi Tự Do</h4>
+                                        <p>LYHAN</p>
+                                    </div>
+                                </div>
+                                <div class="song-album">Serenity Symphony</div>
+                                <div class="song-meta">
+                                    <span>EM XINH "SAY HI", TẬP 13</span>
+                                    <span>3:21</span>
+                                    <span class="material-symbols-outlined">favorite_border</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+
+                <aside class="right-pane">
+                    <section class="content-section">
+                        <h2>Popular Artists</h2>
+                        <div class="artist-grid">
+                            <div class="artist-circle">
+                                <img src="https://cdn.tienphong.vn/images/a6bf4f60924201126af6849ca45a3980a763a464e66999f3021b41451a8ace6e1718122ecbced8491641a3ec11dda7da91c395aaa9493e5cdaf349cad3d4a15e/l1-2294.jpeg" alt="LyLy">
+                                <p>LyLy</p>
+                            </div>
+                             <div class="artist-circle">
+                                <img src="https://images.sk-static.com/images/media/profile_images/artists/10103536/huge_avatar" alt="Phan Mạnh Quỳnh">
+                                <p>Phan Mạnh Quỳnh</p>
+                            </div>
+                             <div class="artist-circle">
+                                <img src="https://yt3.googleusercontent.com/67M_YWZ75GH1OZrDauo0446NClfD_0MZeClQjDSiBKxMpqJ114yG2AsUYHwc4T7xUF8PWMlbxHE=s900-c-k-c0x00ffffff-no-rj" alt="Liu Grace">
+                                <p>Liu Grace</p>
+                            </div>
+                             <div class="artist-circle">
+                                <img src="https://yt3.googleusercontent.com/Scnb6zniVBsy8eT2v01XP8xUN_DhlSuDie_ohDbfkpUkPhkl4DzP6PYzrnqPhnJ7HsktuYTjP1Y=s900-c-k-c0x00ffffff-no-rj" alt="Dương Domic">
+                                <p>Dương Domic</p>
+                            </div>
+                             <div class="artist-circle">
+                                <img src="https://i.scdn.co/image/ab6761610000e5eb9947613368a5dff45d44e8a5" alt="Phạm Nguyên Ngọc">
+                                <p>Phạm Nguyên Ngọc</p>
+                            </div>
+                             <div class="artist-circle">
+                                <img src="https://yt3.googleusercontent.com/enG03m1WKMfZL8ym-8fbtPPDA2uGOX3t1NIWVxltWdJHTmYKsT7LeWYbtrNI7c-PZlB2IqyaqA=s900-c-k-c0x00ffffff-no-rj" alt="Hà Anh Tuấn">
+                                <p>Hà Anh Tuấn</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Top Podcasts</h2>
+                        <div class="podcast-container">
+                            <div class="podcast-card">
+                                <img src="https://i.scdn.co/image/ab6765630000ba8a8a0962b25ca759fce786ee39" alt="Have a sip">
+                                <p>Have A Sip</p>
+                            </div>
+                             <div class="podcast-card">
+                                <img src="https://i.scdn.co/image/ab6765630000ba8a1a4fdef885da6bd14b993fcb" alt="Podcast">
+                                <p>Tri Kỷ Cảm Xúc</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="content-section">
+                        <h2>Next in Queue</h2>
+                        <ul class="queue-list">
+                            <li>
+                                <img src="https://upload.wikimedia.org/wikipedia/vi/f/f2/Phep_mau_ost.jpg" alt="Phép màu album">
+                                <div>
+                                    <h4>Phép màu (Đàn Cá Gỗ Original SoundTrack)</h4>
+                                    <p>feat. Minh Tốc & Lam</p>
+                                </div>
+                                <span>04:27</span>
+                                <span class="material-symbols-outlined">play_arrow</span>
+                            </li>
+                             <li>
+                                <img src="https://i.scdn.co/image/ab67616d0000b2738e2436033be92c06e4afee32" alt="Không buông album">
+                                <div>
+                                    <h4>Không Buông - Single </h4>
+                                    <p>Hngle & Ari</p>
+                                </div>
+                                <span>02:55</span>
+                                <span class="material-symbols-outlined">play_arrow</span>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
+            </div>
+        </main>
+
+        <footer class="now-playing-bar">
+            <div class="song-details">
+                 <img src="https://photo-resize-zmp3.zadn.vn/w600_r1x1_jpeg/cover/b/7/1/c/b71c2776c47d9122faf16098fd37e6a1.jpg" alt="Now Playing">
+                 <div>
+                     <h4>Rơi Tự Do</h4>
+                     <p>LYHAN</p>
+                 </div>
+                 <span class="material-symbols-outlined">favorite_border</span>
+            </div>
+            <div class="player-controls">
+                <div class="controls">
+                    <span class="material-symbols-outlined">shuffle</span>
+                    <span class="material-symbols-outlined">skip_previous</span>
+                    <span class="material-symbols-outlined play-icon-large">play_circle</span>
+                    <span class="material-symbols-outlined">skip_next</span>
+                    <span class="material-symbols-outlined">repeat</span>
+                </div>
+                <div class="progress-bar">
+                    <span>01:25</span>
+                    <div class="bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span>-03:21</span>
+                </div>
+            </div>
+             <div class="volume-controls">
+                <span class="material-symbols-outlined">volume_up</span>
+                <span class="material-symbols-outlined">mic</span>
+                <span class="material-symbols-outlined">playlist_play</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
