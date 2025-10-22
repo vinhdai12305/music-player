@@ -1,19 +1,12 @@
-# Web Project
+## Final UI Screenshot
+ui.png
 
-
-
-## 🧩 Features
-- Responsive layout
-- Styled with CSS3
-- Includes images and text content
-
-## 🖼️ Final UI Screenshot
-![Final UI Screenshot](ui.png)
-
-## 💻 Technologies
-- HTML5
-- CSS3
+## Technologies
+- HTML
+- CSS
 - Visual Studio Code
 
-## 🚀 Author
-Vinhxdai (vinhxdai12305)
+## Student
+vinhdai12305
+Trần Vĩnh Đại 
+23090009
