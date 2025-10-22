@@ -1,5 +1,5 @@
 ## Final UI Screenshot
-ui.png
+[ui.png]
 
 ## Technologies
 - HTML
